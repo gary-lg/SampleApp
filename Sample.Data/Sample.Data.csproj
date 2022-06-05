@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.0.123" />
+      <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+      <PackageReference Include="dbup-postgresql" Version="4.6.3" />
+      <PackageReference Include="Npgsql" Version="6.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sample.Core\Sample.Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Migrator/Scripts/*.sql" />
+    </ItemGroup>
+
+</Project>

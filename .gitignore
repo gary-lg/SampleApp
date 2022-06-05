@@ -1,0 +1,56 @@
+#Build Artifacts
+artifacts/*
+testcoverage/*
+testresults/*
+
+
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+
+#Visual Studio files
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+.vs/
+ipch/
+[Oo]bj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+[Pp]ublished*/
+Ankh.NoLoad
+Packages
+MigrationBackup
+
+#Tooling
+_ReSharper*/
+*.resharper
+[Tt]est[Rr]esult*
+.[Ii]dea/*
+.idea
+codebuild_build.*
+
+
+#Certificates
+*.pfx
+*.pem
+
+# Docker Data
+Docker/sample-dev/DockerData
