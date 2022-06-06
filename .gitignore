@@ -54,3 +54,4 @@ codebuild_build.*
 
 # Docker Data
 Docker/sample-dev/DockerData
+!/Sample.Cache/
