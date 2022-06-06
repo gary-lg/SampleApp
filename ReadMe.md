@@ -1,6 +1,6 @@
 # Sample App
 
-Sample application demonstrating a Swagger REST API, caching, logging, persistence (using Docker), databaes migrations and calling third-party resources over REST.
+Sample application demonstrating a Swagger REST API, caching, logging, persistence (using Docker), database migrations and calling third-party resources over REST.
 
 # Usage
 
@@ -20,3 +20,7 @@ This will start a Postgres DB on port 54345
 - Start the API by using `dotnet run` in the `GeoAPI` directory.
 
 - Using your preferred browser navigate to `https://localhost:7164/swagger/index.html` and click some buttons
+
+# Testing
+
+From the root directory run `dotnet test`
